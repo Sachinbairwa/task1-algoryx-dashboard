@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react'
-import Sidebar from './components/Sidebar'
-import Topbar from './components/Topbar'
-import StatCard from './components/StatCard'
-import OrdersTable from './components/OrdersTable'
-import ProfileCard from './components/ProfileCard'
+import Sidebar from "./Sidebar";
+import Topbar from "./Topbar";
+import StatCard from "./StatCard";
+import OrdersTable from "./OrdersTable";
+import ProfileCard from "./ProfileCard";
 import { stats, orders } from './data'
 
 export default function App() {
