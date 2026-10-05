@@ -1,65 +1,59 @@
-# Algoryx Admin Dashboard (Task 1)
+# Algoryx Admin Dashboard — Task 1
 
-## Description
-A responsive, SaaS-style admin dashboard built for the Algoryx Frontend Internship (Task 1). It focuses on clean architecture, reusable components and a mobile-friendly layout.
+A modern and responsive SaaS-style admin dashboard built with React and Vite. The dashboard provides a clean interface for managing orders, customers, analytics, notifications, and profile information.
 
-## Features
-- Responsive sidebar (slide-in drawer on mobile)
-- Top navigation with live search
-- Dashboard stat cards
-- Recent orders table with status badges and search filtering
-- User profile card
-- Notifications dropdown
-- Light fade-in animations (respects reduced-motion settings)
-- Fully responsive layout
+## 🚀 Live Demo
 
-## Tech Stack
-React 18, Vite 6, Tailwind CSS 4, Lucide React, JavaScript (ES Modules)
+🌐 **[View Live Demo](https://task1-algoryx-dashboard-swart.vercel.app)**
 
-## Installation
-```bash
-npm install
-```
+💻 **[View Source Code](https://github.com/Sachinbairwa/task1-algoryx-dashboard)**
 
-## Running Locally
-```bash
-npm run dev
-```
-Open the URL shown in the terminal (usually http://localhost:5173).
+---
 
-## Build Instructions
-```bash
-npm run build
-npm run preview
-```
-The production build is created in the `dist/` folder.
+## ✨ Features
 
-## Vercel Deployment
-1. Push this project to a GitHub repository.
-2. Go to vercel.com and sign in with GitHub.
-3. Click **Add New > Project** and import the repository.
-4. Vercel detects Vite automatically (Build command: `npm run build`, Output directory: `dist`).
-5. Click **Deploy** to get your live URL.
+- 📊 Responsive admin dashboard
+- 📈 Statistics and analytics cards
+- 🛒 Recent orders management table
+- 🔍 Order search functionality
+- 👤 Admin profile card
+- 🔔 Notifications interface
+- 📱 Responsive sidebar navigation
+- 🧭 Top navigation bar
+- 🎨 Clean SaaS-style UI
+- ⚡ Fast Vite development environment
+- 📱 Responsive design for different screen sizes
 
-## Folder Structure
-```
-algoryx-dashboard/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Sidebar.jsx
-│   │   ├── Topbar.jsx
-│   │   ├── StatCard.jsx
-│   │   ├── OrdersTable.jsx
-│   │   └── ProfileCard.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── index.css
-│   └── data.js
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **CSS**
+- **Lucide Icons**
+- **Vercel**
+
+---
+
+## 📂 Project Structure
+
+```text
+task1-algoryx-dashboard/
+│
+├── .gitignore
+├── App.jsx
+├── OrdersTable.jsx
+├── ProfileCard.jsx
+├── Sidebar.jsx
+├── StatCard.jsx
+├── Topbar.jsx
+├── data.js
+├── index.css
 ├── index.html
+├── main.jsx
 ├── package.json
 ├── package-lock.json
 ├── vite.config.js
-├── README.md
-└── .gitignore
-```
+└── README.md
