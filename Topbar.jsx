@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Menu, Search, Bell } from 'lucide-react'
-import { notifications } from '../data'
+import { notifications } from './data'
 export default function Topbar({ onMenu, query, setQuery }) {
   const [show, setShow] = useState(false)
   return (
